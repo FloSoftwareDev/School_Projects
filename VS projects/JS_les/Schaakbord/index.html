@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard Generator</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <div class="content-container">
+        <h1>Schaakbord generator</h1>
+        <div>
+            <label for="rows">Rijen:</label>
+            <input type="number" id="rows" value="8" min="2">
+        </div>
+        <div>
+            <label for="cols">Kolommen:</label>
+            <input type="number" id="cols" value="8" min="2">
+            <br><br>
+            <button onclick="generateBoard()">Genereer Schaakbord</button>
+        </div>
+
+        <canvas id="bord" width="400" height="400"></canvas>
+    </div>
+
+    <script src="JS/Script.js"></script>
+</body></html>

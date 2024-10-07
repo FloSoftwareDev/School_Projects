@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <div id="game-container">
+        <div id="room">
+            <div id="room-content">
+                <h1 id="room-title">Room 1</h1>
+                <p id="room-description">You are in a dark room. There's a door to the north that is locked and a door to the east that is not. On the table is a key, which door would that open? It doesnt work on the locked door in this room. You store the key in your inventory.</p>
+                <div id="objective">Objective: Find the key!</div>
+            </div>
+            <div id="controls">
+                <button id="north-arrow" class="arrow">⬆</button>
+                <button id="west-arrow" class="arrow">⬅</button>
+                <button id="east-arrow" class="arrow">➡</button>
+                <button id="south-arrow" class="arrow">⬇</button>
+            </div>
+            <div id="inventory">
+                <p>Inventory: <span id="inventory-items">None</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="JS/script.js" defer></script>
+</body>
+
+</html>
